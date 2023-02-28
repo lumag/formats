@@ -1284,6 +1284,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "sec1"
+version = "0.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "48518a2b5775ba8ca5b46596aae011caa431e6ce7e4a67ead66d92f08884220e"
+
+[[package]]
 name = "semver"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1449,7 +1455,7 @@ dependencies = [
  "rand_chacha",
  "rand_core 0.6.3",
  "rsa",
- "sec1 0.2.1",
+ "sec1 0.7.1",
  "serde",
  "sha2 0.10.2",
  "signature",
